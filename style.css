@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.project a {
+  color: blue;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 30px;
+  font-family: 'Anton', sans-serif;
+}
+
+.exercise a {
+  color: green;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 30px;
+  font-family: 'Anton', sans-serif;
+  z-index: -2;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+.project {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 100px;
+
+}
+
+.exercise {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  z-index: 2;
+}
+
+
+.surprise {
+  font-size: 20px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%
+}
+
+.doggo {
+	position: absolute;
+	background-size: cover;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/5b/cf/62/5bcf62fa4bbef71efcbabcf628984cb3.jpg);
+  z-index: -1;
+}
+
+.clear {
+  position: aboslute;
+  height: 20px;
+  width: 50px;
+  color: white;
+  margin-left: 90%;
+  margin-top: 25%;
+  background-color: green;
+  text-align: center;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.clear:hover {
+  opacity: .5;
+}
